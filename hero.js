@@ -4,7 +4,7 @@ class hero{
      { isStatic: false
         }
      this.Img1 = loadImage("images/superhero-01.png");
-     this.body = body.rectangle(x,y,width,height);
+     this.body = bodies.rectangle(x,y,width,height);
      World.add(World,this.body);
      this.width = width;
      this.height = height;
