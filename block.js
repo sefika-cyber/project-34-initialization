@@ -3,7 +3,7 @@ class block{
         var options={
             isStatic:false
               }
-              this.body = bodies.rectangle(x,y,width,height,options);
+              this.bodies = bodies.rectangle(x,y,width,height,options);
               World.add(World,this.body);
               this.width = width;
               this.height = height;
